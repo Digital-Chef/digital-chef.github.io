@@ -1,0 +1,210 @@
+/*!
+ * Start Bootstrap - One Page Wonder v5.0.7 (https://startbootstrap.com/template-overviews/one-page-wonder)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
+ */
+
+body {
+    font-family: 'Titillium Web';
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Titillium Web';
+}
+
+.kop2 {
+    font-weight: bold;
+}
+p, a{
+  font-size: 1.2rem;
+}
+h3 {
+    line-height: 6rem;
+}
+
+.white {
+    background-color: white;
+}
+
+.clay {
+    background-color: rgb(246, 245, 237);
+}
+
+.btn-xl {
+    text-transform: uppercase;
+    padding: 1.5rem 3rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+.text-charcoal {
+    color: rgb(41, 40, 36);
+}
+
+.text-clay {
+    color: rgb(246, 245, 237);
+}
+
+.text-dcblue {
+    color: rgb(86, 171, 176);
+}
+
+.text-dcorange {
+    color: rgb(246, 157, 66);
+}
+
+.bg-black {
+    background-color: rgb(246, 245, 237) !important;
+}
+
+.navbar-custom {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(41,40,36);
+}
+
+.navbar-custom .navbar-brand {
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    padding-left: 2rem;
+}
+
+header.masthead {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    padding-top: calc(7rem + 72px);
+    padding-bottom: 7rem;
+    background: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+header.masthead .masthead-content {
+    z-index: 1;
+    position: relative;
+}
+
+header.masthead .masthead-content .masthead-heading {
+    font-size: 4rem;
+}
+
+header.masthead .masthead-content .masthead-subheading {
+    font-size: 2rem;
+}
+
+@media (min-width: 992px) {
+    header.masthead {
+        padding-top: calc(10rem + 55px);
+        padding-bottom: 10rem;
+    }
+    header.masthead .masthead-content .masthead-heading {
+        font-size: 6rem;
+    }
+    header.masthead .masthead-content .masthead-subheading {
+        font-size: 4rem;
+    }
+}
+
+.bg-primary {
+    background-color: #ee0979 !important;
+}
+
+.btn-primary {
+    background-color: white;
+    color: rgb(246, 157, 66);
+    border-color: rgb(246, 157, 66);
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+    background-color: rgb(246, 157, 66) !important;
+    border-color: rgb(246, 157, 66) !important;
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
+}
+
+.btn-secondary {
+    background-color: #ff6a00;
+    border-color: #ff6a00;
+}
+
+.btn-secondary:active,
+.btn-secondary:focus,
+.btn-secondary:hover {
+    background-color: #cc5500 !important;
+    border-color: #cc5500 !important;
+}
+
+.btn-secondary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+}
+
+.box a {
+    position: absolute;
+    left: 3rem;
+    bottom: 0;
+}
+
+header {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
