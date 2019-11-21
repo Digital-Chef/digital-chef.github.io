@@ -3,6 +3,9 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
  */
+html,body{
+    overflow-x: hidden;
+}
 
 body {
     font-family: 'Titillium Web';
@@ -22,6 +25,7 @@ h6 {
 
 .kop2 {
     font-weight: bold;
+    text-align: center;
 }
 
 .kop3 {
@@ -215,4 +219,43 @@ header .overlay {
   background-color: black;
   opacity: 0.5;
   z-index: 1;
+}
+/* 
+#team p {
+    font-size:1rem;
+} */
+
+.team-header {
+    margin-bottom:0;
+}
+
+
+
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+    .scale-me{
+        font-size: 3rem;
+    }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .scale-me{
+        font-size: 3.5rem;
+    }
+}
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .scale-me{
+        font-size: 4rem;
+    }
+}
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
+    .scale-me{
+        font-size: 4.5rem;
+    }
+}
+
+.infotext{
+    line-height: 3rem;
 }
