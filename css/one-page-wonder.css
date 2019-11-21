@@ -216,3 +216,11 @@ header .overlay {
   opacity: 0.5;
   z-index: 1;
 }
+/* 
+#team p {
+    font-size:1rem;
+} */
+
+.team-header {
+    margin-bottom:0;
+}
