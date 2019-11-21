@@ -23,11 +23,19 @@ h6 {
 .kop2 {
     font-weight: bold;
 }
+
+.kop3 {
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+}
+
 p, a{
   font-size: 1.2rem;
 }
+
 h3 {
-    line-height: 6rem;
+    line-height: 4rem;
 }
 
 .white {
@@ -36,6 +44,10 @@ h3 {
 
 .clay {
     background-color: rgb(246, 245, 237);
+}
+
+.charcoal {
+    background-color: rgb(41, 40, 36);
 }
 
 .btn-xl {
@@ -47,23 +59,19 @@ h3 {
 }
 
 .text-charcoal {
-    color: rgb(41, 40, 36);
+    color: rgb(41, 40, 36) !important;
 }
 
 .text-clay {
-    color: rgb(246, 245, 237);
+    color: rgb(246, 245, 237) !important;
 }
 
 .text-dcblue {
-    color: rgb(86, 171, 176);
+    color: rgb(86, 171, 176) !important;
 }
 
 .text-dcorange {
-    color: rgb(246, 157, 66);
-}
-
-.bg-black {
-    background-color: rgb(246, 245, 237) !important;
+    color: rgb(246, 157, 66) !important; 
 }
 
 .navbar-custom {
@@ -74,14 +82,14 @@ h3 {
 
 .navbar-custom .navbar-brand {
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1.3rem;
     letter-spacing: 0.1rem;
     font-weight: 700;
 }
 
 .navbar-custom .navbar-nav .nav-item .nav-link {
     text-transform: uppercase;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-weight: 700;
     letter-spacing: 0.1rem;
     padding-left: 2rem;
@@ -131,7 +139,7 @@ header.masthead .masthead-content .masthead-subheading {
 }
 
 .btn-primary {
-    background-color: white;
+    background-color: rgb(246, 245, 237);
     color: rgb(246, 157, 66);
     border-color: rgb(246, 157, 66);
 }
