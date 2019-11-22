@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
  */
 html,body{
+    scroll-behavior: smooth;
     overflow-x: hidden;
 }
 
@@ -190,21 +191,6 @@ header {
   overflow: hidden;
 }
 
-header video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
-
 header .container {
   position: relative;
   z-index: 2;
@@ -236,11 +222,71 @@ header .overlay {
     .scale-me{
         font-size: 3rem;
     }
+    .kop2 {
+        font-size:2.5rem;
+    }
+    .infotext{
+        font-size: 1.2rem;
+        line-height: 2.4rem;
+    }
+    #strenghtsimg{
+        /* width:50%; */
+    }
+    .carousel-caption > h2 {
+        font-size: 1.4rem;
+    }
+    .customerimg{
+        width:50%;
+    }
+    header video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: 100%;
+        z-index: 0;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+    }
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
     .scale-me{
         font-size: 3.5rem;
+    }
+    .kop2 {
+        font-size:2.8rem;
+    }
+    .infotext{
+        font-size: 1.2rem;
+        line-height: 2.4rem;
+    }
+    #strenghtsimg{
+        /* width:60%; */
+    }
+    .carousel-caption > h2 {
+        font-size: 1.6rem;
+    }
+    .customerimg{
+        /* width:68%; */
+    }
+    header video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: 0;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
     }
 }
 /* tablets/desktops and up ----------- */
@@ -248,14 +294,86 @@ header .overlay {
     .scale-me{
         font-size: 4rem;
     }
+    .kop2 {
+        font-size:3rem;
+    }
+    .infotext{
+        font-size: 1.4rem;
+        line-height: 2.6rem;
+    }
+    #strenghtsimg{
+        /* width:80%; */
+    }
+    .carousel-caption > h2 {
+        font-size: 1.8rem;
+    }
+    .customerimg{
+        /* width:84%; */
+    }
+    header video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: 0;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+    }
 }
 /* large desktops and up ----------- */
 @media screen and (min-width: 1200px) {
     .scale-me{
         font-size: 4.5rem;
     }
+    .kop2 {
+        font-size:3.5rem;
+    }
+    .infotext{
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+    #strenghtsimg{
+        /* width:100%; */
+    }
+    .carousel-caption > h2 {
+        font-size: 2rem;
+    } 
+    .customerimg{
+        /* width:100%; */
+    }
+    header video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: 0;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+    }
 }
 
-.infotext{
-    line-height: 3rem;
+
+.img-overlay:hover{
+  width: 100%;
+  opacity: .8;
+  transition: .2s ease;
+  z-index: 2;
+}
+
+a:hover{
+  transition: .2s ease;
+}
+
+a:hover > p {
+    color:rgb(246, 157, 66);
 }

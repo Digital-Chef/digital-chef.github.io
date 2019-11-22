@@ -30,13 +30,13 @@
 
 	<!-- Navigation-->
 	<nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
-		<div class="container offset-xl-2 offset-0 col-xl-8 col-12 pl-4 pr-xl-3 pr-xl-0 pl-xl-0">
+		<div class="container offset-xl-2 offset-0 col-xl-8 col-12 pl-4 pr-xl-0 pr-xl-0 pl-xl-0">
 			<a class="navbar-brand" href="#">Digital Chef</a>
-			<button class="navbar-toggler center" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			<button style="border:none" class="navbar-toggler center" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon p-1"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarResponsive">
-				<ul class="navbar-nav ml-auto">
+				<ul class="navbar-nav ml-auto pr-0">
 					<li class="nav-item">
 						<a class="nav-link" href="#dc">WHAT WE DO</a>
 					</li>
@@ -68,12 +68,12 @@
 
 	<header>
 		<div class="overlay"></div>
-		<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" speed="-1">
+		<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" speed="1" poster="img/placeholder.jpg">
 			<source src="vid/bg.mp4" type="video/mp4">
 		</video>
 		<div class="container h-100">
-			<div class="d-flex h-100 text-LEFT align-items-center">
-				<div class="w-100 text-white">
+			<div class="d-flex h-100 text-left align-items-center">
+				<div class="w-100 text-white px-xs-3">
 					<h1 class="display-3 text-clay scale-me" style="font-weight: bold;">THE FUTURE OF <br>IMAGINATION</h1>
 					<h2 class="lead mb-0 text-clay kop3">DIGITAL CHEF</h2>
 				</div>
@@ -81,51 +81,50 @@
 		</div>
 	</header>
 
-	<section id="dc" class="clay pt-5">
-		<div class="p-5">
-			<h2 class="display-4 text-center kop2 center">WHAT WE DO</h2>
-		</div>
-		<div class="container-fluid offset-xl-2 col-xl-10">
-			<div class="row align-top">
-				<div class="col-xl-5 order-xl-2">
-					<div class="p-5">
+	<section id="dc" class="clay pt-5 px-3">
+		<div class="container-fluid offset-xl-2 col-xl-8">
+			<div class="p-md-5">
+				<h2 class="display-4 text-center kop2">WHAT WE DO</h2>
+			</div>
+			<div class="row pb-5 pt-5 justify-content-around">
+				<div class="px-md-4 col-12 col-xl text-center">
+					<div class="text-left pb-4" style="display:inline-block">
 						<img class="img-fluid" src="img/02.png" alt="">
 					</div>
 				</div>
-				<div class="col-xl-5 order-xl-1">
-					<div class="p-5 text-dcblue">
-						<h4 class="infotext">We help developers, marketeers, teachers and trainers to
-							communicate
-							their message in the most effective manner by creating state of art 3D visualisations.</h4>
-					</div>
+				
+				<div class="px-md-4 pt-md-0 pt-xs-4 col-12 col-xl text-center">
+					<h4 class="text-dcblue infotext text-left" style="display:inline-block">
+						We help developers, marketeers, teachers and trainers to communicate their message in the most effective manner by creating state of art 3D visualisations.
+					</h4>
 				</div>
+				<!-- <div class="px-md-4 pb-5 col-12 col-xl text-center">
+						<h4 class="infotex text-dcblue text-leftt" style="display:inline-block">We help developers, marketeers, teachers and trainers to communicate their message in the most effective manner by creating state of art 3D visualisations.</h4>
+				</div> -->
 			</div>
 		</div>
 	</section>
 
-	<section id="strength" class="white pt-5">
-		<div class="p-5">
-			<h2 class="display-4 text-center kop2">OUR STRENGTHS</h2>
-		</div>
-		<div class="container-fluid offset-xl-2 col-xl-10">
-			<div class="row align-top ">
-				<div class="col-xl-5">
-					<div class="p-5">
-						<img class="img-fluid" src="img/01.png" alt="">
+	<section id="strength" class="white pt-5 px-3">
+		<div class="container-fluid offset-xl-2 col-xl-8">
+			<div class="p-md-5">
+				<h2 class="display-4 text-center kop2">OUR STRENGTHS</h2>
+			</div>
+			<div class="row pb-5 pt-5 justify-content-around">
+				<div class="px-md-4 col-12 col-xl text-center">
+					<div class="text-left" style="display:inline-block">
+						<img class="img-fluid d-none d-xl-block" id="strenghtsimg" src="img/01.png" alt="">
+						<img class="img-fluid d-block d-xl-none" id="strenghtsimg" src="img/01_mobile.png" alt="">
 					</div>
 				</div>
-				<div class="col-xl-5">
-					<div class="p-5 text-dcblue">
-						<h4 class="infotext">We know the food sector inside out and we can read our customer's values.</h4>
-						<br>
-						<h4 class="infotext">We are the only ones in the industry to develop the perfect fit between food, packaging and
-							design in
-							3D.</h4>
-						<br>
-						<h4 class="infotext">The absolute efficient production appraoch of our Virtual Food Factory sets an unparalleled
-							standard for
-							3D digital food models.</h4>
-					</div>
+				<div class="px-md-4 col-12 col-xl text-center">
+					<h4 class="text-dcblue infotext text-left" style="display:inline-block">
+						We know the food sector inside out and we can read our customer's values.
+						<br><br>
+						We are the only ones in the industry to develop the perfect fit between food, packaging and design in 3D.
+						<br><br>
+						The absolute efficient production approach of our Virtual Food Factory sets an unparalleled standard for 3D digital food models.
+					</h4>
 				</div>
 			</div>
 		</div>
@@ -133,7 +132,7 @@
 
 	<section id="markets" class="charcoal pt-5">
 		<div class="container-fluid p-0">
-			<div class="p-5">
+			<div class="p-md-5 pb-4">
 				<h2 class="display-4 text-center kop2 text-clay">OUR AUDIENCE</h2>
 			</div>
 			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -146,25 +145,25 @@
 				<div class="carousel-inner">
 					<div class="carousel-item active">
 						<img class="d-block w-100" src="img/k1.jpg" alt="FOOD INDUSTRY">
-						<div class="carousel-caption d-none d-md-block">
+						<div class="carousel-caption d-xs-block">
 							<h2>FOOD INDUSTRY</h2>
 						</div>
 					</div>
 					<div class="carousel-item">
 						<img class="d-block w-100" src="img/k2.jpg" alt="FOOD SERVICE">
-						<div class="carousel-caption d-none d-md-block">
+						<div class="carousel-caption d-xs-block">
 							<h2>FOOD SERVICE</h2>
 						</div>
 					</div>
 					<div class="carousel-item">
 						<img class="d-block w-100" src="img/k3.jpg" alt="FOOD RETAIL">
-						<div class="carousel-caption d-none d-md-block">
+						<div class="carousel-caption d-xs-block">
 							<h2>FOOD RETAIL</h2>
 						</div>
 					</div>
 					<div class="carousel-item">
 						<img class="d-block w-100" src="img/k4.jpg" alt="EDUCATION & TRAINING">
-						<div class="carousel-caption d-none d-md-block">
+						<div class="carousel-caption d-xs-block">
 							<h2>EDUCATION & TRAINING</h2>
 						</div>
 					</div>
@@ -181,46 +180,44 @@
 		</div>
 	</section>
 
-	<section id="focus" class="clay pt-5">
-		<div class="p-5">
-			<h2 class="display-4 text-center kop2">OUR FOCUS</h2>
-		</div>
+	<section id="focus" class="clay pt-5 px-3">
 		<div class="container-fluid offset-xl-2 col-xl-8">
-			<div class="row pb-5 justify-content-around is-table-row">
-				<div class="col-xs-6 col-sm-12 col-lg pr-md-5 pt-md-5 pb-md-5 pl-5 pl-xl-0 box">
-					<h4 class="text-dcblue focus-text-header">VISUAL DEVELOPMENT</h4>
-					<p class="focus-text text-dcblue">Visualise product, packaging and design in one 3D concept,
-						directly from the
-						start. Our visual approach helps your team, colleagues and customers to make better choices
-						early on in your
-						NPD process.</p>
-					<!-- <a class="pt-3 text-dcorange">▶ READ MORE</a> -->
+			<div class="p-md-5">
+				<h2 class="display-4 text-center kop2">OUR FOCUS</h2>
+			</div>
+			<div class="row pt-5 pb-5 justify-content-around">
+				<div class="px-md-4 pb-3 pb-md-0 col-md col-xs-12 text-center">
+					<div class="text-left" style="display:inline-block">
+						<h4 class="text-dcblue focus-text-header">VISUAL DEVELOPMENT</h4>
+						<p class="focus-text text-dcblue">Visualise product, packaging and design in one 3D concept, directly from the start. Our visual approach helps your team, colleagues and customers to make better choices early on in your NPD process.</p>
+						<!-- <a class="pt-3 text-dcorange">▶ READ MORE</a> -->
+					</div>
 				</div>
-				<div class="col-xs-6 col-sm-12 col-lg p-5 box">
-					<h4 class="text-dcblue focus-text-header">DYNAMIC SALES</h4>
-					<p class="focus-text text-dcblue">Dynamic visuals sell better. Discover endless new ways of
-						presenting from
-						sales to promotions.</p>
-					<!-- <a class="pt-3 text-dcorange">▶ READ MORE</a> -->
+				<div class="px-md-4 pb-3 pb-md-0 col-md col-xs-12 text-center">
+					<div class="text-left"style="display:inline-block">
+						<h4 class="text-dcblue focus-text-header">DYNAMIC SALES</h4>
+						<p class="focus-text text-dcblue">Dynamic visuals sell better. Discover endless new ways of presenting from sales to promotions.</p>
+						<!-- <a class="pt-3 text-dcorange">▶ READ MORE</a> -->
+					</div>
 				</div>
-				<div class="col-xs-6 col-sm-12 col-lg pl-5 pt-md-5 pb-md-5 box">
-					<h4 class="text-dcblue focus-text-header">BLENDED E-LEARNING</h4>
-					<p class="focus-text text-dcblue">Dynamic, fast and effective learning in 3D! Interactive digital
-						learning
-						modules for various fields of expertise. Easy to integrate in existing e-learning platforms.</p>
-					<!-- <a class="pt-3 text-dcorange">▶ READ MORE</a> -->
+				<div class="px-md-4 pb-3 pb-md-0 col-md col-xs-12 text-center">
+					<div class="text-left" style="display:inline-block">
+						<h4 class="text-dcblue focus-text-header">BLENDED E-LEARNING</h4>
+						<p class="focus-text text-dcblue">Dynamic, fast and effective learning in 3D! Interactive digital learning modules for various fields of expertise. Easy to integrate in existing e-learning platforms.</p>
+						<!-- <a class="pt-3 text-dcorange">▶ READ MORE</a> -->
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section id="products" class="white pt-5">
+	<section id="products" class="white pt-5 px-3">
 		<div class="container-fluid offset-xl-2 col-xl-8">
-			<div class="p-5">
+			<div class="p-md-5 pb-5">
 				<h2 class="display-4 text-center kop2">OUR DIGITAL PRODUCTS</h2>
 			</div>
 			<div class="row pb-5 justify-content-around">
-				<div class="col-xs-6 col-sm-5 col-lg p-4">
+				<div class="col-xs-6 col-sm-5 col-lg pb-4">
 					<!--Modal: DIGITAL 3D MODELS FROM THE VIRTUAL FOOD FACTORY-->
 					<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
 						aria-hidden="true">
@@ -243,14 +240,13 @@
 							</div>
 						</div>
 					</div>
-					<a><img class="img-fluid z-depth-1" src="img/p1.jpg" alt="" data-toggle="modal"
-							data-target="#modal1"></a>
-					<p class="pt-3" data-toggle="modal" data-target="#modal1">▶ DIGITAL 3D MODELS FROM THE VIRTUAL FOOD
-						FACTORY
-					</p>
+					<a data-toggle="modal" data-target="#modal1">	
+						<img class="img-fluid img-overlay" src="img/p1.jpg" alt="">
+						<p class="pt-3">▶ DIGITAL 3D MODELS FROM THE VIRTUAL FOOD FACTORY</p>
+					</a>
 					<!--Modal: DIGITAL 3D MODELS FROM THE VIRTUAL FOOD FACTORY-->
 				</div>
-				<div class="col-xs-6 col-sm-5 col-lg p-4">
+				<div class="col-xs-6 col-sm-5 col-lg pb-4">
 					<!--Modal: INTERACTIVE 3D APPLICATIONS-->
 					<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
 						aria-hidden="true">
@@ -273,12 +269,13 @@
 							</div>
 						</div>
 					</div>
-					<a><img class="img-fluid z-depth-1" src="img/p2.jpg" alt="" data-toggle="modal"
-							data-target="#modal2"></a>
-					<p class="pt-3" data-toggle="modal" data-target="#modal2">▶ INTERACTIVE 3D APPLICATIONS</p>
+					<a data-toggle="modal" data-target="#modal2">	
+						<img class="img-fluid img-overlay" src="img/p2.jpg" alt="">
+						<p class="pt-3">▶ INTERACTIVE 3D APPLICATIONS</p>
+					</a>
 					<!--Modal: INTERACTIVE 3D APPLICATIONS-->
 				</div>
-				<div class="col-xs-6 col-sm-5 col-lg p-4">
+				<div class="col-xs-6 col-sm-5 col-lg pb-4">
 					<!--Modal: RENDER IMAGES-->
 					<div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
 						aria-hidden="true">
@@ -301,12 +298,13 @@
 							</div>
 						</div>
 					</div>
-					<a><img class="img-fluid z-depth-1" src="img/p3.jpg" alt="" data-toggle="modal"
-							data-target="#modal3"></a>
-					<p class="pt-3" data-toggle="modal" data-target="#modal3">▶ RENDER IMAGES</p>
+					<a data-toggle="modal" data-target="#modal3">
+						<img class="img-fluid img-overlay" src="img/p3.jpg" alt="">
+						<p class="pt-3">▶ RENDER IMAGES</p>
+					</a>
 					<!--Modal: RENDER IMAGES-->
 				</div>
-				<div class="col-xs-6 col-sm-5 col-lg p-4">
+				<div class="col-xs-6 col-sm-5 col-lg pb-4">
 					<!--Modal: PRODUCT ANIMATIONS-->
 					<div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 						<div class="modal-dialog modal-lg" role="document">
@@ -328,132 +326,163 @@
 							</div>
 						</div>
 					</div>
-					<a><img class="img-fluid z-depth-1" src="img/p4.gif" alt="" data-toggle="modal"
-							data-target="#modal4"></a>
-					<p class="pt-3" data-toggle="modal" data-target="#modal4">▶ PRODUCT ANIMATIONS</p>
+					<a data-toggle="modal" data-target="#modal4">	
+						<img class="img-fluid img-overlay" src="img/p4.jpg" alt="">
+						<p class="pt-3">▶ PRODUCT ANIMATIONS</p>
+					</a>
 					<!--Modal: PRODUCT ANIMATIONS-->
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section id="customers" class="clay pt-5">
+	<section id="customers" class="clay pt-5 px-xl-5 px-3">
 		<div class="container-fluid offset-xl-2 col-xl-8">
-			<div class="p-5">
+			<div class="p-md-5">
 				<h2 class="display-4 text-center kop2">OUR CUSTOMERS</h2>
 			</div>
 			<div class="row pb-5 justify-content-around">
-				<div class="col-xs-1 p-4">
+				<div class="container-flex p-4 customerimg text-center">
 					<img class="img-fluid" src="img/clients/bej.png" alt="">
 				</div>
-				<div class="col-xs-1 p-4">
+				<div class="container-flex p-4 customerimg text-center">
 					<img class="img-fluid" src="img/clients/bra.png" alt="">
 				</div>
-				<div class="col-xs-1 p-4">
+				<div class="container-flex p-4 customerimg text-center">
 					<img class="img-fluid" src="img/clients/del.png" alt="">
 				</div>
-				<div class="col-xs-1 p-4">
+				<div class="container-flex p-4 customerimg text-center">
 					<img class="img-fluid" src="img/clients/fru.png" alt="">
 				</div>
-				<div class="col-xs-1 p-4">
+				<div class="container-flex p-4 customerimg text-center">
 					<img class="img-fluid" src="img/clients/hom.png" alt="">
 				</div>
-				<div class="col-xs-1 p-4">
+				<div class="container-flex p-4 customerimg text-center">
 					<img class="img-fluid" src="img/clients/kip.png" alt="">
 				</div>
-				<div class="col-xs-1 p-4">
+				<div class="container-flex p-4 customerimg text-center">
 					<img class="img-fluid" src="img/clients/sme.png" alt="">
 				</div>
-				<div class="col-xs-1 p-4">
+				<div class="container-flex p-4 customerimg text-center">
 					<img class="img-fluid" src="img/clients/van.png" alt="">
 				</div>
-				<div class="col-xs-1 p-4">
+				<div class="container-flex p-4 customerimg text-center">
 					<img class="img-fluid" src="img/clients/zon.png" alt="">
 				</div>
-				<div class="col-xs-1 p-4">
+				<div class="container-flex p-4 customerimg text-center">
 					<img class="img-fluid" src="img/clients/zwa.png" alt="">
 				</div>
-				<div class="col-xs-1 p-4">
+				<div class="container-flex p-4 customerimg text-center">
 					<img class="img-fluid" src="img/clients/smu.png" alt="">
 				</div>
-				<div class="col-xs-1 p-4">
+				<div class="container-flex p-4 customerimg text-center">
 					<img class="img-fluid" src="img/clients/lan.png" alt="">
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section id="team" class="white pt-5">
+	<section id="team" class="white pt-5 px-1">
 		<div class="container-fluid offset-xl-2 col-xl-8">
-			<div class="p-5">
+			<div class="p-md-5 pb-4">
 				<h2 class="display-4 text-center kop2">OUR TEAM</h2>
 			</div>
 			<div class="row pb-5 justify-content-center">
-				<div class="col-sm-3 col-xs-6 p-md-4 text-center">
-					<a target="_blank" href="https://www.linkedin.com/in/bart-oude-luttikhuis-83a65123/">
-						<img class="img-fluid" src="img/team/bol.jpg" alt="">
+				<div class="col-5 col-xl-3 p-md-4 p-3 text-center">
+					<a target="_blank" href="https://www.linkedin.com/in/bart-oude-luttikhuis-83a65123/">	
+						<div class="img-overlay">
+							<img class="img-fluid team-img" src="img/team/bol.jpg" alt="">
+						</div>
 						<p class="pt-3 team-header"><b>BART OUDE LUTTIKHUIS</b></p>
-						<p class="team-descr">BUSINESS & STRATEGY</p>
+						<p class="team-descr pb-4 pb-sm-0">BUSINESS & STRATEGY</p>
 					</a>
 				</div>
-				<div class="col-sm-3 col-xs-6 p-md-4 text-center">
+				<div class="col-5 col-xl-3 p-md-4 p-3 text-center">
 					<a target="_blank" href="https://nl.linkedin.com/in/robbert-oude-luttikhuis-b3659b2a/">
-						<img class="img-fluid" src="img/team/rol.jpg" alt="">
+						<div class="img-overlay">
+							<img class="img-fluid team-img" src="img/team/rol.jpg" alt="">
+						</div>
 						<p class="pt-3 team-header"><b>ROBBERT OUDE LUTTIKHUIS</b></p>
 						<p class="team-descr">MARKETING & SALES</p>
 					</a>
 				</div>
-				<div class="col-sm-3 col-xs-6 p-md-4 text-center">
+				<div class="col-5 col-xl-3 p-md-4 p-3 text-center">
 					<a target="_blank" href="https://www.linkedin.com/in/vincent-boer-9771b068/">
-						<img class="img-fluid" src="img/team/vb.jpg" alt="">
+						<div class="img-overlay">
+							<img class="img-fluid team-img" src="img/team/vb.jpg" alt="">
+						</div>
 						<p class="pt-3 team-header"><b>VINCENT BOER</b></p>
 						<p class="team-descr">3D ARTIST</p>
 					</a>
 				</div>
-				<div class="col-sm-3 col-xs-6 p-md-4 text-center">
-					<a target="_blank" href="https://www.linkedin.com/in/tim-velthuis/"><img class="img-fluid" src="img/team/tim.jpg" alt="">
+				<div class="col-5 col-xl-3 p-md-4 p-3 text-center">
+					<a target="_blank" href="https://www.linkedin.com/in/tim-velthuis/">
+						<div class="img-overlay">
+							<img class="img-fluid team-img" src="img/team/tim.jpg" alt="">
+						</div>
 						<p class="pt-3 team-header"><b>TIM VELTHUIS</b></b></p>
 						<p class="team-descr">INTERACTION DESIGNER</p>
 					</a>
 				</div>
-				<div class="col-sm-3 col-xs-6 p-md-4 text-center">
+				<div class="col-5 col-xl-3 p-md-4 p-3 text-center">
 					<a target="_blank" href="https://nl.linkedin.com/in/luuk-wielink-3020aaa4/">
-						<img class="img-fluid" src="img/team/luuk.jpg" alt="">
+						<div class="img-overlay">
+							<img class="img-fluid team-img" src="img/team/luuk.jpg" alt="">
+						</div>
 						<p class="pt-3 team-header"><b>LUUK WIELINK</b></p>
 						<p class="team-descr">MARKETING & SALES</p>
 					</a>
 				</div>
-				<div class="col-sm-3 col-xs-6 p-md-4 text-center">
-					<a target="_blank" href="https://nl.linkedin.com/in/ivolutio/nl/"><img class="img-fluid" src="img/team/iv.jpg" alt="">
+				<div class="col-5 col-xl-3 p-md-4 p-3 text-center">
+					<a target="_blank" href="https://nl.linkedin.com/in/ivolutio/nl/">
+						<div class="img-overlay">
+							<img class="img-fluid team-img" src="img/team/iv.jpg" alt="">
+						</div>
 						<p class="pt-3 team-header"><b>IVO KETELAAR</b></p>
 						<p class="team-descr">APPLICATION DEVELOPER</p>
 					</a>
 				</div>
-				<div class="col-sm-3 col-xs-6 p-md-4 text-center">
-					<img class="img-fluid" src="img/team/fi.jpg" alt="">
-					<p class="pt-3 team-header"><b>FILIP ALEXANDRESCU</b></p>
-					<p class="team-descr">3D ARTIST</p>
+				<div class="col-5 col-xl-3 p-md-4 p-3 text-center">
+					<a href="#team">	
+						<div class="img-overlay">
+							<img class="img-fluid team-img" src="img/team/fi.jpg" alt="">
+						</div>
+						<p class="pt-3 team-header"><b>FILIP ALEXANDRESCU</b></p>
+						<p class="team-descr">3D ARTIST</p>
+					</a>
 				</div>
-				<div class="col-sm-3 col-xs-6 p-md-4 text-center">
-					<img class="img-fluid" src="img/team/mr.jpg" alt="">
-					<p class="pt-3 team-header"><b>MAURICE HUISMAN</b></p>
-					<p class="team-descr">GRAPHIC DESIGNER</p>
+				<div class="col-5 col-xl-3 p-md-4 p-3 text-center">
+					<a href="#team">	
+						<div class="img-overlay">
+							<img class="img-fluid team-img" src="img/team/mr.jpg" alt="">
+						</div>
+						<p class="pt-3 team-header"><b>MAURICE HUISMAN</b></p>
+						<p class="team-descr">GRAPHIC DESIGNER</p>
+					</a>
 				</div>
-				<div class="col-sm-3 col-xs-6 p-md-4 text-center">
-					<img class="img-fluid" src="img/team/van.jpg" alt="">
-					<p class="pt-3 team-header"><b>VANESSA CELINE</b></p>
-					<p class="team-descr">3D ARTIST</p>
+				<div class="col-5 col-xl-3 p-md-4 p-3 text-center">
+					<a href="#team">	
+						<div class="img-overlay">
+							<img class="img-fluid team-img" src="img/team/van.jpg" alt="">
+						</div>
+						<p class="pt-3 team-header"><b>VANESSA CELINE</b></p>
+						<p class="team-descr">3D ARTIST</p>
+					</a>
 				</div>
-				<div class="col-sm-3 col-xs-6 p-md-4 text-center">
+				<div class="col-5 col-xl-3 p-md-4 p-3 text-center">
 					<a href="https://www.didutch.com/en/uncategorized/3d-artist-internship/">	
-						<img class="img-fluid" src="img/team/vac.jpg" alt="">
+						<div class="img-overlay">
+							<img class="img-fluid team-img" src="img/team/vac.jpg" alt="">
+						</div>
 						<p class="pt-3 team-header"><b>VACANCY</b></p>
 						<p class="team-descr">3D ARTIST INTERN</p>
 					</a>
 				</div>
-				<div class="col-sm-3 col-xs-6 p-md-4 text-center">
+				<div class="col-5 col-xl-3 p-md-4 p-3 text-center">
 					<a href="https://www.didutch.com/en/uncategorized/3d-unity-programmer-serious-gaming-internship/">
-						<img class="img-fluid" src="img/team/vac.jpg" alt="">
+						<div class="img-overlay">
+							<img class="img-fluid team-img" src="img/team/vac.jpg" alt="">
+						</div>
 						<p class="pt-3 team-header"><b>VACANCY</b></p>
 						<p class="team-descr">3D UNITY PROGRAMMER INTERN</p>
 					</a>
@@ -462,47 +491,40 @@
 		</div>
 	</section>
 
-	<section id="contact" class="clay pt-5">
-		<div class="container">
-			<div class="p-5">
+	<section id="contact" class="clay pt-5 pb-5">
+		<div class="container-fluid offset-xl-2 col-xl-8">
+			<div class="p-md-5 py-5">
 				<h2 class="display-4 text-center kop2">LET'S COOPERATE!</h2>
 			</div>
-			<div class="row align-top">
-				<div class="col-xs-0 col-sm-2"></div>
-				<div class="col-xs-12 col-sm-8">
-					<div class="p-5 text-center">
-						<h3 style="color:rgb(86,171,176);">Share your contact details with Digital Chef. We will
-							contact you as soon as possible and share our services!</h3>
-							<a href="mailto:info@digitalchef.eu" class="btn btn-primary btn-xl mt-5">CONTACT US!</a>
+			<div class="row pb-5 justify-content-around">
+				<div class="px-0 px-md-4 col-md col-xs-12 text-center">
+					<div class="text-md-left text-center" style="display:inline-block">
+						<h4 class="focus-text-header"><b>MORE INFO</b></h4>
+						<p class="text-uppercase focus-text"><a href="tel:+31532030089" target="_black">+31 (0) 532 030 089</a><br><a href="mailto:info@digitalchef.eu" target="_black">info@digitalchef.eu</a></p>
 					</div>
 				</div>
-				<div class="col-xs-0 col-sm-2"></div>
+				<div class="px-0 px-md-4 col-md col-xs-12 text-center">
+					<div class="text-md-left text-center"style="display:inline-block">
+						<h4 class="focus-text-header"><b>SALES</b></h4>
+						<p class="text-uppercase focus-text"><a href="tel:+31639078390" target="_black">+31 (0) 639 078 390</a><br><a href="mailto:luuk@digitalchef.eu" target="_black">luuk@digitalchef.eu</a></p>
+					</div>
+				</div>
+				<div class="px-0 px-md-4 col-md col-xs-12 text-center">
+					<div class="text-md-left text-center" style="display:inline-block">
+						<h4 class="focus-text-header"><b>OFFICE</b></h4>
+						<a href="https://g.page/digitalchef?share" target="_black"><p class="text-uppercase focus-text">Het Roozendaal 11<br>7523 XG - Enschede<br>The Netherlands</p></a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
 
 	<!-- Footer -->
-	<footer class="py-5 charcoal">
-		<div class="container">
-			<div class="row align-top">
-					<div class="col-sm-3 pb-5">
-							<p class="m-0 text-left text-clay small"><b>DIGITAL CHEF B.V.</b><br>Het Rozendaal 11<br>7523 XG Enschede<br>The Netherlands
-							</p>
-						</div>
-						<div class="col-sm-3 pb-5">
-								<p class="m-0 text-left text-clay small"><br>+31 (0)53 203 0089<br>
-									info@digitalchef.eu<br>
-									luuk@digitalchef.eu</p>
-							</div>
-						<div class="col-sm-6">
-								
-							</div>
-
-				<div class="col-sm-6">
-					<p class="m-0 text-left text-clay small">&copy; <b> DIGITAL CHEF 2019</b> &emsp; PRIVACY POLICY
-					</p>
-				</div>
-				<div class="col-sm-6 text-right">
+	<footer class="py-4 charcoal">
+		<div class="container offset-xl-2 offset-0 col-xl-8 col-12 px-5 px-xl-0">
+			<div class="row justify-content-between">
+				<div class="row"><p class="m-0 text-clay small" style="vertical-align: middle; line-height: 1.8rem;">&copy; <b> DIGITAL CHEF 2019</b> &emsp;</p><a class="m-0 text-clay small" style="vertical-align: middle; line-height: 1.8rem;">PRIVACY POLICY</a></div>
+				<div class="row text-center">
 					<a href="https://www.linkedin.com/company/digital-chef/" target="_blank" rel="noopener">
 						<i class="fab fa-linkedin" style="color:rgb(246, 245, 237);"></i>
 					</a>&ensp;
@@ -510,9 +532,15 @@
 						<i class="fab fa-instagram" style="color:rgb(246, 245, 237);"></i>
 					</a>
 				</div>
+				
+				<div class="row">
+					<p class="pl-3 m-0 text-clay small text-uppercase" style="vertical-align: middle; line-height: 1.8rem;">Powered by</p>
+					<a href="https://www.didutch.com/en/" target="_black" class="m-0 text-clay small text-uppercase" style="vertical-align: middle; line-height: 1.8rem;">&nbsp;<b>DiDutch</b></a>
+					<p class="m-0 text-clay small text-uppercase" style="vertical-align: middle; line-height: 1.8rem;">&nbsp;&</p>
+					<a href="https://hetfoodatelier.nl/?lang=en" target="_black" class="m-0 text-clay small text-uppercase" style="vertical-align: middle; line-height: 1.8rem;">&nbsp;<b>Het Foodatelier</b></a>
+				</div>
 			</div>
 		</div>
-		<!-- /.container -->
 	</footer>
 
 	<!-- Bootstrap core JavaScript -->
